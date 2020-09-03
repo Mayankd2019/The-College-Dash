@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom_nav"
+    app:startDestination="@id/dashBoardFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.hfad.collegedash.DashBoardFragment"
+        android:label="DashBoard"
+        tools:layout="@layout/fragment_dash_board" />
+    <fragment
+        android:id="@+id/socitiesFragment"
+        android:name="com.hfad.collegedash.SocitiesFragment"
+        android:label="Societies"
+        tools:layout="@layout/fragment_socities" />
+    <fragment
+        android:id="@+id/noticesFragment"
+        android:name="com.hfad.collegedash.NoticesFragment"
+        android:label="Notices"
+        tools:layout="@layout/fragment_notices" />
+    <fragment
+        android:id="@+id/chatsFragment2"
+        android:name="com.hfad.collegedash.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+</navigation>
